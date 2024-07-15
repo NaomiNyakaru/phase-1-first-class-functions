@@ -11,8 +11,8 @@ let receivesAFunction = function(callback) {
     return function() {};
   }
   
-  module.exports = {
-    receivesAFunction,
-    returnsANamedFunction,
-    returnsAnAnonymousFunction,
-  };
+ 
+    receivesAFunction()
+    returnsANamedFunction()
+    returnsAnAnonymousFunction()
+  
